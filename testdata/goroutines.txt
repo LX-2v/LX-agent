@@ -1,0 +1,83 @@
+goroutine 1 [running]:
+runtime/pprof.writeGoroutineStacks({0x7ff70f492990, 0x35a697702040})
+	C:/Program Files/Go/src/runtime/pprof/pprof.go:816 +0x69
+runtime/pprof.writeGoroutine({0x7ff70f492990?, 0x35a697702040?}, 0x7ff70f2983b5?)
+	C:/Program Files/Go/src/runtime/pprof/pprof.go:779 +0x25
+runtime/pprof.(*Profile).WriteTo(0x7ff70f37da1b?, {0x7ff70f492990?, 0x35a697702040?}, 0x7ff7000001b6?)
+	C:/Program Files/Go/src/runtime/pprof/pprof.go:405 +0x149
+main.goroutineLeak()
+	E:/Mohamed/LX-2v/LX-agent/testdata/generate/main.go:92 +0xe6
+main.main()
+	E:/Mohamed/LX-2v/LX-agent/testdata/generate/main.go:23 +0x16f
+
+goroutine 38 [chan receive]:
+main.goroutineLeak.func1()
+	E:/Mohamed/LX-2v/LX-agent/testdata/generate/main.go:83 +0x19
+created by main.goroutineLeak in goroutine 1
+	E:/Mohamed/LX-2v/LX-agent/testdata/generate/main.go:81 +0x37
+
+goroutine 37 [chan receive]:
+main.goroutineLeak.func1()
+	E:/Mohamed/LX-2v/LX-agent/testdata/generate/main.go:83 +0x19
+created by main.goroutineLeak in goroutine 1
+	E:/Mohamed/LX-2v/LX-agent/testdata/generate/main.go:81 +0x37
+
+goroutine 36 [chan receive]:
+main.goroutineLeak.func1()
+	E:/Mohamed/LX-2v/LX-agent/testdata/generate/main.go:83 +0x19
+created by main.goroutineLeak in goroutine 1
+	E:/Mohamed/LX-2v/LX-agent/testdata/generate/main.go:81 +0x37
+
+goroutine 34 [chan receive]:
+main.goroutineLeak.func1()
+	E:/Mohamed/LX-2v/LX-agent/testdata/generate/main.go:83 +0x19
+created by main.goroutineLeak in goroutine 1
+	E:/Mohamed/LX-2v/LX-agent/testdata/generate/main.go:81 +0x37
+
+goroutine 35 [chan receive]:
+main.goroutineLeak.func1()
+	E:/Mohamed/LX-2v/LX-agent/testdata/generate/main.go:83 +0x19
+created by main.goroutineLeak in goroutine 1
+	E:/Mohamed/LX-2v/LX-agent/testdata/generate/main.go:81 +0x37
+
+goroutine 39 [chan receive]:
+main.goroutineLeak.func1()
+	E:/Mohamed/LX-2v/LX-agent/testdata/generate/main.go:83 +0x19
+created by main.goroutineLeak in goroutine 1
+	E:/Mohamed/LX-2v/LX-agent/testdata/generate/main.go:81 +0x37
+
+goroutine 40 [chan receive]:
+main.goroutineLeak.func1()
+	E:/Mohamed/LX-2v/LX-agent/testdata/generate/main.go:83 +0x19
+created by main.goroutineLeak in goroutine 1
+	E:/Mohamed/LX-2v/LX-agent/testdata/generate/main.go:81 +0x37
+
+goroutine 41 [chan receive]:
+main.goroutineLeak.func1()
+	E:/Mohamed/LX-2v/LX-agent/testdata/generate/main.go:83 +0x19
+created by main.goroutineLeak in goroutine 1
+	E:/Mohamed/LX-2v/LX-agent/testdata/generate/main.go:81 +0x37
+
+goroutine 42 [chan receive]:
+main.goroutineLeak.func1()
+	E:/Mohamed/LX-2v/LX-agent/testdata/generate/main.go:83 +0x19
+created by main.goroutineLeak in goroutine 1
+	E:/Mohamed/LX-2v/LX-agent/testdata/generate/main.go:81 +0x37
+
+goroutine 43 [chan receive]:
+main.goroutineLeak.func1()
+	E:/Mohamed/LX-2v/LX-agent/testdata/generate/main.go:83 +0x19
+created by main.goroutineLeak in goroutine 1
+	E:/Mohamed/LX-2v/LX-agent/testdata/generate/main.go:81 +0x37
+
+goroutine 44 [chan receive]:
+main.goroutineLeak.func1()
+	E:/Mohamed/LX-2v/LX-agent/testdata/generate/main.go:83 +0x19
+created by main.goroutineLeak in goroutine 1
+	E:/Mohamed/LX-2v/LX-agent/testdata/generate/main.go:81 +0x37
+
+goroutine 45 [chan receive]:
+main.goroutineLeak.func1()
+	E:/Mohamed/LX-2v/LX-agent/testdata/generate/main.go:83 +0x19
+created by main.goroutineLeak in goroutine 1
+	E:/Mohamed/LX-2v/LX-agent/testdata/generate/main.go:81 +0x37
