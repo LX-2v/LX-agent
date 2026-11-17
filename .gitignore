@@ -1,0 +1,34 @@
+# Folder
+.claude
+.cursor/
+.opencode
+.gemini
+.gocache
+baseline/
+dist
+node_modules
+
+# Logs
+log
+*.csv
+
+# ai files
+GEMINI.md
+roadmap.md
+
+# other
+.vscode/*
+!.vscode/extensions.json
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.tsbuildinfo
+
+tmp
+cross-platform.md
+leoxy
+!test/server/leoxy
+*.env
